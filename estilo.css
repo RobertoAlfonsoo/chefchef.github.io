@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 80%;
+    margin: 0px auto;
+    border: 1px solid black;
+}  
+
+header{
+    background: green;
+    height: 100px;
+    width: auto;
+    text-align: center;
+    line-height: 100px;
+    border-top: 7px solid black;
+    border-top-left-radius: 70%;
+    border-top-right-radius: 70%;
+    font-size: 25px;
+}
+
+
+ /*modificamos la barra de busqueda*/
+.nav-list{
+    background: rgb(169, 201, 245);
+    height: 33px;
+    width: auto;
+    border:2px solid black;
+}
+nav ul li{
+    float:left;
+    list-style: none;
+    margin: 10px;
+    color: white;
+    font-size: 25px;
+    line-height: 15px;
+}
+/*funcion para que las secciones queden encima una de otra*/
+.clear{
+clear:both;
+}
+
+#contenido{
+    float: left;   
+    width: auto;    
+    min-height: 500px;
+    background: rgb(168, 165, 196);
+    padding: 20px;
+}
+
+.receta h2{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black ;
+}
+.receta h3{
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black ;
+}
+
+
+.receta p{
+    margin-bottom: 4px
+ 
+}
+
+.receta img {
+    width: 400px; 
+    align-items: center;
+    height: auto; /* Escala proporcionalmente */
+    border: 2px solid #333; /* Opcional: un borde para resaltar la imagen */
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
